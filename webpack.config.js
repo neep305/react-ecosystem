@@ -18,7 +18,7 @@ module.exports = {
             }
         ]
     },
-    resolve: { extensions: ['*', '.js', '.jsx']},
+    resolve: { extensions: ['*', '.js', '.jsx'] },
     output: {
         path: path.resolve(__dirname, 'dist/'),
         publicPath: '/dist/',
@@ -31,4 +31,4 @@ module.exports = {
         hotOnly: true
     },
     plugins: [new webpack.HotModuleReplacementPlugin()]
-}
+};
